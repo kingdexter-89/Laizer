@@ -1,0 +1,83 @@
+main {
+          padding: 0px;
+          margin: 0px;
+}
+
+body {
+          background-color: white;
+          margin: 60px;
+}
+
+.container {
+          background-color: rgb(225, 225, 226);
+          border: 2px solid darkblue;
+          border-radius: 35px;
+          padding: 50px;
+}
+
+.container .header {
+          padding: 5px;
+          margin: 10px;
+          background-color: darkblue;
+          border: 2px solid white;
+          border-radius: 20px;
+}
+
+.container .header p {
+          font-size: 40px;
+          font-weight: 1000;
+          color: white;
+          margin: 10px;
+}
+
+.container .main {
+          padding: 5px;
+          margin: 10px;
+          background-color: darkblue;
+          border: 2px solid white;
+          border-radius: 20px;
+}
+
+.container .main .frm1 .ft {
+          margin: 5px;
+          color: white;
+          font-size: 24px;
+          margin: 10px;
+}
+
+
+.container .main .frm1 .ft .ft-tr .ft-td input {
+          border: 5px double darkblue;
+          border-radius: 10px;
+          width: 190%;
+          margin: 10px;
+          padding: 10px;
+}
+
+
+.container .main .frm1 .ft .ft-tr .ft-td .frm-sl {
+          border: 5px double darkblue;
+          border-radius: 10px;
+          width: 203.5%;
+          margin: 10px;
+          padding: 10px;
+}
+
+.container .footer {
+          display: flex;
+          padding: 5px;
+          margin: 10px;
+          background-color: darkblue;
+          border: 2px solid white;
+          border-radius: 20px;
+          justify-content: right;
+}
+
+.container .footer .fo-btn {
+          border: 5px double darkblue;
+          border-radius: 15px;
+          margin: 10px;
+          padding: 10px;
+          color: darkblue;
+          font-size: 18px;
+}

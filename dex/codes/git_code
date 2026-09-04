@@ -1,0 +1,211 @@
+PS C:\Users\hp\Desktop\dex> cd codes
+PS C:\Users\hp\Desktop\dex\codes> git init
+Initialized empty Git repository in C:/Users/hp/Desktop/dex/codes/.git/
+PS C:\Users\hp\Desktop\dex\codes> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        dex.css
+        dex.html
+        dex.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\hp\Desktop\dex\codes> git add .
+PS C:\Users\hp\Desktop\dex\codes> commit -m
+commit : The term 'commit' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of 
+the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ commit -m
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (commit:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+PS C:\Users\hp\Desktop\dex\codes> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   dex.css
+        new file:   dex.html
+        new file:   dex.js
+
+PS C:\Users\hp\Desktop\dex\codes> git commit -m "dex web"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'hp@DEX89TER.(none)')
+PS C:\Users\hp\Desktop\dex\codes> git config 
+error: no action specified
+PS C:\Users\hp\Desktop\dex\codes> git config user.email "kingdexter.genesis89@gmail.com"
+PS C:\Users\hp\Desktop\dex\codes> 
+
+new::
+PS C:\Users\hp\Desktop\wesley> git init
+Initialized empty Git repository in C:/Users/hp/Desktop/wesley/.git/
+PS C:\Users\hp\Desktop\wesley> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        wesley.css
+        wesley.html
+        wesley.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\hp\Desktop\wesley> git add .
+PS C:\Users\hp\Desktop\wesley> git commit -m
+error: switch `m' requires a value
+PS C:\Users\hp\Desktop\wesley> git commit -m "wesley files"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'hp@DEX89TER.(none)')
+PS C:\Users\hp\Desktop\wesley> git config user.email "wesleywendy1010@gmail.com"
+PS C:\Users\hp\Desktop\wesley> git commit -m
+error: switch `m' requires a value
+PS C:\Users\hp\Desktop\wesley> git commit -m "wesley files"
+[master (root-commit) 4010e26] wesley files
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 wesley.css
+ create mode 100644 wesley.html
+ create mode 100644 wesley.js  git push -u origin mainktop\wesley> 
+error: src refspec main does not match any
+error: failed to push some refs to 'origin'
+PS C:\Users\hp\Desktop\wesley> git branch -M main
+PS C:\Users\hp\Desktop\wesley> git remote add origin https://github.com/wes261/WES-.git
+PS C:\Users\hp\Desktop\wesley> git push -u origin main
+remote: Permission to wes261/WES-.git denied to kingdexter-89.
+fatal: unable to access 'https://github.com/wes261/WES-.git/': The requested URL returned error: 403
+PS C:\Users\hp\Desktop\wesley> git pus -u origin main
+git: 'pus' is not a git command. See 'git --help'.
+
+The most similar commands are
+        push
+        pull
+PS C:\Users\hp\Desktop\wesley> git push -u origin main
+fatal: unable to access 'https://github.com/wes261/WES-.git/': Could not resolve host: github.com
+PS C:\Users\hp\Desktop\wesley> git remote set-url origin https://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@github.com/wes261/WESLEY.git
+PS C:\Users\hp\Desktop\wesley> git push -u origin main
+remote: Repository not found.
+fatal: repository 'https://github.com/wes261/WESLEY.git/' not found
+PS C:\Users\hp\Desktop\wesley> git remote set-url origin https://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@github.com/WES-/WESLEY.git  
+PS C:\Users\hp\Desktop\wesley> git push -u origin main
+remote: Repository not found.
+fatal: repository 'https://github.com/WES-/WESLEY.git/' not found
+PS C:\Users\hp\Desktop\wesley> git remote set-url origin https://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@github.com/wes261/WES-.git   
+PS C:\Users\hp\Desktop\wesley> git push -u origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 235 bytes | 235.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/wes261/WES-.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\hp\Desktop\wesley> 
+
+new:
+PS C:\Users\hp\Desktop\dex> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   C1.cpp
+        new file:   C1.exe
+        new file:   C2.cpp
+        new file:   codes/dex.css
+        new file:   codes/dex.html
+        new file:   codes/dex.js
+        new file:   gmon.out
+        new file:   news.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   codes/dex.css
+        modified:   codes/dex.html
+        modified:   news.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        codes/git_code
+
+PS C:\Users\hp\Desktop\dex> git add .
+PS C:\Users\hp\Desktop\dex> git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   C1.cpp
+        new file:   C1.exe
+        new file:   C2.cpp
+        new file:   codes/dex.css
+        new file:   codes/dex.html
+        new file:   codes/dex.js
+        new file:   codes/git_code
+        new file:   gmon.out
+        new file:   news.html
+
+PS C:\Users\hp\Desktop\dex> git commit -m "genesis"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'hp@DEX89TER.(none)')
+PS C:\Users\hp\Desktop\dex> git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+To push to multiple remotes at once, configure a remote group using
+
+    git config remotes.<groupname> "<remote1> <remote2>"
+
+and then push using the group name
+
+    git push <groupname>
+
+PS C:\Users\hp\Desktop\dex> 
